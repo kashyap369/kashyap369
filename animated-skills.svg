@@ -1,0 +1,114 @@
+<!-- Save as: animated-skills.svg -->
+<svg width="1200" height="380" viewBox="0 0 1200 380" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a020f0"/>
+      <stop offset="100%" stop-color="#7a1bd6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="380" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <g>
+    <text x="600" y="60" text-anchor="middle" font-family="Segoe UI, Inter, Roboto, Arial, sans-serif"
+          font-weight="700" font-size="28" fill="white" opacity="0.95">
+      🛠 Skills
+    </text>
+    <text x="600" y="90" text-anchor="middle" font-family="Segoe UI, Inter, Roboto, Arial, sans-serif"
+          font-size="14" fill="white" opacity="0.8">
+      C#, .NET, Angular, TypeScript, Tailwind, Git & more
+    </text>
+  </g>
+
+  <!-- Floating icons (using skillicons.dev) -->
+  <!-- Tip: you can change any icon by replacing the ?i= value -->
+  <!-- Sizes are consistent (64x64). Each has independent x/y animations. -->
+
+  <!-- Row-ish layout to start; animation makes them drift -->
+  <!-- cs -->
+  <image href="https://skillicons.dev/icons?i=cs" x="150" y="140" width="64" height="64">
+    <animate attributeName="x" values="130;170;120;150;130" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="130;160;150;140;130" dur="11s" repeatCount="indefinite"/>
+  </image>
+
+  <!-- dotnet -->
+  <image href="https://skillicons.dev/icons?i=dotnet" x="260" y="200" width="64" height="64">
+    <animate attributeName="x" values="250;300;255;260;250" dur="13s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="190;220;210;200;190" dur="10s" repeatCount="indefinite"/>
+  </image>
+
+  <!-- dotnetcore -->
+  <image href="https://skillicons.dev/icons?i=dotnetcore" x="370" y="140" width="64" height="64">
+    <animate attributeName="x" values="360;410;365;370;360" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="130;160;150;140;130" dur="9s" repeatCount="indefinite"/>
+  </image>
+
+  <!-- angular -->
+  <image href="https://skillicons.dev/icons?i=angular" x="480" y="210" width="64" height="64">
+    <animate attributeName="x" values="470;520;475;480;470" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="200;230;220;210;200" dur="12s" repeatCount="indefinite"/>
+  </image>
+
+  <!-- ts -->
+  <image href="https://skillicons.dev/icons?i=ts" x="590" y="140" width="64" height="64">
+    <animate attributeName="x" values="580;630;585;590;580" dur="11s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="130;160;150;140;130" dur="8s" repeatCount="indefinite"/>
+  </image>
+
+  <!-- js -->
+  <image href="https://skillicons.dev/icons?i=js" x="700" y="210" width="64" height="64">
+    <animate attributeName="x" values="690;740;695;700;690" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="200;230;220;210;200" dur="9s" repeatCount="indefinite"/>
+  </image>
+
+  <!-- html -->
+  <image href="https://skillicons.dev/icons?i=html" x="810" y="140" width="64" height="64">
+    <animate attributeName="x" values="800;850;805;810;800" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="130;160;150;140;130" dur="11s" repeatCount="indefinite"/>
+  </image>
+
+  <!-- css -->
+  <image href="https://skillicons.dev/icons?i=css" x="920" y="210" width="64" height="64">
+    <animate attributeName="x" values="910;960;915;920;910" dur="16s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="200;230;220;210;200" dur="12s" repeatCount="indefinite"/>
+  </image>
+
+  <!-- tailwind -->
+  <image href="https://skillicons.dev/icons?i=tailwind" x="1030" y="160" width="64" height="64">
+    <animate attributeName="x" values="1020;1070;1025;1030;1020" dur="13s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="150;180;170;160;150" dur="10s" repeatCount="indefinite"/>
+  </image>
+
+  <!-- bootstrap -->
+  <image href="https://skillicons.dev/icons?i=bootstrap" x="220" y="290" width="64" height="64">
+    <animate attributeName="x" values="210;260;215;220;210" dur="17s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="280;310;300;290;280" dur="13s" repeatCount="indefinite"/>
+  </image>
+
+  <!-- git -->
+  <image href="https://skillicons.dev/icons?i=git" x="420" y="300" width="64" height="64">
+    <animate attributeName="x" values="410;460;415;420;410" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="290;320;310;300;290" dur="9s" repeatCount="indefinite"/>
+  </image>
+
+  <!-- github -->
+  <image href="https://skillicons.dev/icons?i=github" x="620" y="300" width="64" height="64">
+    <animate attributeName="x" values="610;660;615;620;610" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="290;320;310;300;290" dur="11s" repeatCount="indefinite"/>
+  </image>
+
+  <!-- visualstudio -->
+  <image href="https://skillicons.dev/icons?i=visualstudio" x="820" y="300" width="64" height="64">
+    <animate attributeName="x" values="810;860;815;820;810" dur="15s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="290;320;310;300;290" dur="12s" repeatCount="indefinite"/>
+  </image>
+
+  <!-- vscode -->
+  <image href="https://skillicons.dev/icons?i=vscode" x="1020" y="300" width="64" height="64">
+    <animate attributeName="x" values="1010;1060;1015;1020;1010" dur="16s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="290;320;310;300;290" dur="10s" repeatCount="indefinite"/>
+  </image>
+
+</svg>
