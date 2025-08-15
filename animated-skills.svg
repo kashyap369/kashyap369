@@ -1,45 +1,38 @@
-<!-- Skills Section -->
-<div style="background-color:#4B0082; padding:20px 0; text-align:center; position:relative; overflow:hidden;">
-  <style>
-    .skill-icon {
-      display:inline-block;
-      margin:10px;
-      animation: float 4s ease-in-out infinite;
-    }
-    .skill-icon:nth-child(2) { animation-delay: 0.2s; }
-    .skill-icon:nth-child(3) { animation-delay: 0.4s; }
-    .skill-icon:nth-child(4) { animation-delay: 0.6s; }
-    .skill-icon:nth-child(5) { animation-delay: 0.8s; }
-    .skill-icon:nth-child(6) { animation-delay: 1s; }
-    .skill-icon:nth-child(7) { animation-delay: 1.2s; }
-    .skill-icon:nth-child(8) { animation-delay: 1.4s; }
-    .skill-icon:nth-child(9) { animation-delay: 1.6s; }
+<svg width="100%" height="100%" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+    <style>
+      .skill-icon {
+        display: inline-block;
+        margin: 10px;
+        animation: float 4s ease-in-out infinite;
+      }
+      .skill-icon:nth-child(2) { animation-delay: 0.2s; }
+      .skill-icon:nth-child(3) { animation-delay: 0.4s; }
+      .skill-icon:nth-child(4) { animation-delay: 0.6s; }
+      .skill-icon:nth-child(5) { animation-delay: 0.8s; }
+      .skill-icon:nth-child(6) { animation-delay: 1s; }
+      .skill-icon:nth-child(7) { animation-delay: 1.2s; }
+      .skill-icon:nth-child(8) { animation-delay: 1.4s; }
+      .skill-icon:nth-child(9) { animation-delay: 1.6s; }
 
-    @keyframes float {
-      0% { transform: translateY(0px); }
-      50% { transform: translateY(-8px); }
-      100% { transform: translateY(0px); }
-    }
-  </style>
+      @keyframes float {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(-8px); }
+        100% { transform: translateY(0px); }
+      }
+    </style>
 
-  <h2 style="color:white;">🛠 Skills</h2>
-
-  <!-- Row 1 -->
-  <img class="skill-icon" src="https://skillicons.dev/icons?i=cs" height="48">
-  <img class="skill-icon" src="https://skillicons.dev/icons?i=dotnet" height="48">
-  <img class="skill-icon" src="https://skillicons.dev/icons?i=angular" height="48">
-  <img class="skill-icon" src="https://skillicons.dev/icons?i=ts" height="48">
-  <img class="skill-icon" src="https://skillicons.dev/icons?i=bootstrap" height="48">
-
-  <!-- Row 2 -->
-  <img class="skill-icon" src="https://skillicons.dev/icons?i=html" height="48">
-  <img class="skill-icon" src="https://skillicons.dev/icons?i=css" height="48">
-  <img class="skill-icon" src="https://skillicons.dev/icons?i=js" height="48">
-  <img class="skill-icon" src="https://skillicons.dev/icons?i=tailwind" height="48">
-  <img class="skill-icon" src="https://skillicons.dev/icons?i=git" height="48">
-  <img class="skill-icon" src="https://skillicons.dev/icons?i=github" height="48">
-
-  <!-- Row 3 -->
-  <img class="skill-icon" src="https://skillicons.dev/icons?i=visualstudio" height="48">
-  <img class="skill-icon" src="https://skillicons.dev/icons?i=vscode" height="48">
-</div>
+    <!-- Your SVG content goes here (e.g., icons) -->
+     <image class="skill-icon" x="0" y="0" width="48" height="48" href="https://skillicons.dev/icons?i=cs" />
+     <image class="skill-icon" x="60" y="0" width="48" height="48" href="https://skillicons.dev/icons?i=dotnet" />
+     <image class="skill-icon" x="120" y="0" width="48" height="48" href="https://skillicons.dev/icons?i=angular" />
+     <image class="skill-icon" x="180" y="0" width="48" height="48" href="https://skillicons.dev/icons?i=ts" />
+     <image class="skill-icon" x="240" y="0" width="48" height="48" href="https://skillicons.dev/icons?i=bootstrap" />
+     <image class="skill-icon" x="0" y="60" width="48" height="48" href="https://skillicons.dev/icons?i=html" />
+     <image class="skill-icon" x="60" y="60" width="48" height="48" href="https://skillicons.dev/icons?i=css" />
+     <image class="skill-icon" x="120" y="60" width="48" height="48" href="https://skillicons.dev/icons?i=js" />
+     <image class="skill-icon" x="180" y="60" width="48" height="48" href="https://skillicons.dev/icons?i=tailwind" />
+     <image class="skill-icon" x="240" y="60" width="48" height="48" href="https://skillicons.dev/icons?i=git" />
+     <image class="skill-icon" x="0" y="120" width="48" height="48" href="https://skillicons.dev/icons?i=github" />
+     <image class="skill-icon" x="60" y="120" width="48" height="48" href="https://skillicons.dev/icons?i=visualstudio" />
+     <image class="skill-icon" x="120" y="120" width="48" height="48" href="https://skillicons.dev/icons?i=vscode" />
+</svg>
